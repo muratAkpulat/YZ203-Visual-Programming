@@ -27,7 +27,8 @@ An introduction to visual and event-driven programming with Java Swing: GUI cont
 ├── Week_2/
 ├── Week_3/
 │   ...
-└── Week_9/
+├── Week_9/
+└── Week_10/
 ```
 
 Each `Week_N/` folder holds that week's slide deck and lab practice notes (PDF) once the week has been taught. Folders are added as the semester progresses.
@@ -47,10 +48,11 @@ Weeks are numbered by the sessions actually taught, so holidays and the midterm 
 | 7 | ArrayList and Iterator | Lists of objects, safe removal, Falling Egg with many eggs |
 | 8 | JTable and DefaultTableModel | Add, delete, select and edit rows; top-5 score board; project launch |
 | 9 | Multi-screen games | CardLayout, Navigator, back stack, menu bar, key bindings, screen lifecycle |
+| 10 | File I/O | `Files`, buffered streams, `JFileChooser`, CSV, `Properties`; persistent scores and settings |
 
 The midterm examination is practical and is held between the instructional weeks, so it has no week number.
 
-**Next:** file input/output and saving game data, then project development, integration, and the final project presentations. Dates are announced in class.
+**Next:** project development, integration, and the final project presentations. Dates are announced in class.
 
 ## Semester Project
 
