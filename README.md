@@ -21,36 +21,36 @@ An introduction to visual and event-driven programming with Java Swing: GUI cont
 ```
 .
 ├── README.md
-├── week-01/
-│   ├── slides.pdf
-│   └── lab-notes.pdf
-├── week-02/
-├── week-03/
+├── Week_1/
+│   ├── <slides>.pdf
+│   └── <lab notes>.pdf
+├── Week_2/
+├── Week_3/
 │   ...
-└── week-15/
+└── Week_9/
 ```
 
-Each `week-XX/` folder holds that week's slide deck and lab notes once the week has been taught. Folders are added as the semester progresses.
+Each `Week_N/` folder holds that week's slide deck and lab practice notes (PDF) once the week has been taught. Folders are added as the semester progresses.
+
+Weeks are numbered by the sessions actually taught, so holidays and the midterm week are not counted.
 
 ## Weekly Schedule
 
 | Week | Theory | Practice / Lab |
 |---|---|---|
-| 1 | Introduction to Visual Programming and Java Swing | First Swing application; JFrame and JPanel |
-| 2 | Basic Swing Components I | JLabel, JButton, JTextField, JPasswordField |
-| 3 | Basic Swing Components II | JCheckBox, JRadioButton, ButtonGroup, JComboBox |
-| 4 | Advanced Swing Components | JTextArea, JList, JScrollPane, JSlider, JSpinner, JProgressBar |
-| 5 | Event-Driven Programming | ActionListener and component interaction |
-| 6 | Layout Management | Organizing GUI components using layout managers |
-| 7 | Data and Collections in GUI Applications | ArrayList, Iterator, and managing application data |
-| 8 | **Midterm Examination** | — |
-| 9 | Tables and Data-Oriented Interfaces | JTable, DefaultTableModel; add/update/delete; project launch |
-| 10 | Object-Oriented GUI Design | Classes, encapsulation, inheritance, polymorphism; project development |
-| 11 | Graphics and Custom Drawing | Graphics, paintComponent(), shapes, colors, repaint(); project development |
-| 12 | Interactive Graphics and Events | Mouse and keyboard events, KeyListener, interactive graphical objects |
-| 13 | Project Development I | GUI architecture, components, data model, application logic |
-| 14 | Project Development II | Integration, event handling, testing, refinement |
-| 15 | Project Presentation and Evaluation | Project demonstration, presentation, and evaluation |
+| 1 | Setup, introduction and basic components I | First Swing application; JFrame, JPanel and basic components |
+| 2 | Selection, text and value components | Selection, text and value components in small applications |
+| 3 | Timer and animation basics | `javax.swing.Timer`, moving objects, simple animation |
+| 4 | Graphics and `paintComponent` | Custom drawing, shapes, colors, `repaint()` |
+| 5 | Keyboard, mouse and collision | Key and mouse events, collision detection, interactive objects |
+| 6 | Reinforcement lab | Short examples that revise Weeks 1–5 (no new slides) |
+| 7 | ArrayList and Iterator | Lists of objects, safe removal, Falling Egg with many eggs |
+| 8 | JTable and DefaultTableModel | Add, delete, select and edit rows; top-5 score board; project launch |
+| 9 | Multi-screen games | CardLayout, Navigator, back stack, menu bar, key bindings, screen lifecycle |
+
+The midterm examination is practical and is held between the instructional weeks, so it has no week number.
+
+**Next:** file input/output and saving game data, then project development, integration, and the final project presentations. Dates are announced in class.
 
 ## Semester Project
 
@@ -59,7 +59,7 @@ Students design and build an **educational game for children aged 7–10** as a 
 - Basic mathematical operations (addition, subtraction, multiplication, division) through interactive exercises
 - Cognitive / logical reasoning skills — pattern recognition, memory, or problem-solving challenges
 
-The project combines GUI components, event handling, data management, and object-oriented design, with custom graphics and/or keyboard/mouse interaction appropriate for young learners. Work begins after the midterm and runs through Weeks 9–15, ending with a final demonstration and presentation.
+The project combines GUI components, event handling, data management, and object-oriented design, with custom graphics and/or keyboard/mouse interaction appropriate for young learners. The project is launched in Week 8, and the last weeks of the semester are used for project development, ending with a final demonstration and presentation.
 
 **This semester's running example:** an egg-catching game — eggs fall from the top of the screen and the player moves a basket left/right with the keyboard to catch them. Built up incrementally from Week 1's first JFrame through `Timer`, `Graphics`, and `KeyListener` in later weeks, this example is used throughout the course to introduce new topics and can be extended by students into other games.
 
